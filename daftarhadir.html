@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar hadir</title>
+</head>
+
+<body>
+    <h2><b>Daftar Hadir</b></h2>
+    <form action="/upload" methode="post">
+        <label for="nama">Nama :</label>
+        <input type="text" name="nama" id="nama">
+        <br>
+        <label for="keterangan">Keterangan : </label>
+        <input type="radio">
+        <label for="Hadir">Hadir</label>
+        <input type="radio">
+        <label for="TidakHadir">Tidak Hadir</label>
+        <br>
+        <input type="submit" value="Tambah">
+        
+    </form>
+    <br>
+    <table border="1" cellpadding="2" cellspacing="0" width="23%" height="130px">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="2">Keterangan</th>
+        </tr>
+        <tr>
+        <th>Hadir</th>
+        <th>Tidak Hadir</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td><center>QUEEN</center></td>
+            <td><center>100%</center></td>
+            <td><center>0%</center></td>
+        </tr>
+  </table>      
+</body>
+
+</html>
